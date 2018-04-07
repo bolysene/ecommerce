@@ -1,0 +1,462 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, verdana, calibri;
+}
+
+h1, h2, h3, {
+	color: white;
+	font-family: cursive, calibri, sans-serif;
+}
+
+header{
+	background-color: #012;
+	color: white;
+	text-align: center;
+	padding-top:10px;
+	width: 100%;
+}
+
+
+
+
+.right-content{
+	width: 300px;
+	height: 75%;
+	border:1px solid black;
+	float: right;
+}
+
+.logo{
+	border-radius: 10px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+
+.main-nav ul {
+background-color: #e3e3e3;
+color: black;
+text-transform: uppercase;
+text-align: center;
+margin: 0;
+padding: 0;
+}
+
+
+
+.main-nav ul li {
+	display: inline-block;
+	padding: 20px;
+	position: relative;
+	float:center;
+
+}
+
+.main-nav ul li a{
+	color: inherit;
+	text-decoration: none;
+	padding: 19px;
+	font-size:13px;
+}
+
+.main-nav ul li a:hover{
+	font-weight: bold;
+}
+
+.submenu{
+	display: none;
+}
+
+.main-nav li:hover .submenu{
+	display:inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+
+}
+
+.main-nav > ul::after{
+content: "";
+display: table;
+clear: both;
+}
+
+.main-nav ul li:hover{
+background-color:#d5d5d5;
+cursor: pointer;
+}
+
+.second-menu{
+	font-weight: bolder;
+	text-align: left;
+	background-color:#e3e3e3;
+	width: 100px;
+	box-sizing: border-box;
+	padding: 15px 10px;
+	display: none;
+}
+
+.right-content{
+	width:300px;
+	max-height:auto;
+	border:1px solid gray;
+	float: right;
+	margin-right: 0px;
+	padding: 0;
+	margin-top: 70px;
+	text-align: center;
+}
+
+.right-content img{
+	
+	float: center;
+}
+
+.right-content h4{
+	
+	text-align:center;
+	font-family: cursive;
+	border-color: blue;
+	color: white;
+}
+
+
+.footer{
+	text-align: center;
+	font-weight: 100;
+	background-color:#012;
+	max-height:100px;
+}
+/**/
+@media screen and (max-width:560px){
+
+
+
+	.show{
+		max-height: 18em;
+	}
+
+	.main-nav ul li{
+		width: 100%;
+		box-sizing: border-box;
+		text-align: left;
+		border-bottom: 1px solid #d5d5d5;
+		padding: 15px;
+	}
+
+	.second-menu{
+		background-color:#e3e3e3;
+		display: inline-block;
+	}
+
+
+
+	.logo{
+		float: center;
+		width:200px;
+		height: auto;
+		margin:20px 20px;
+		padding: 0;
+	}
+
+	.couv-content{
+	margin-left:0px;
+	margin-top:70px;
+	margin-bottom:10px;
+	float: none;
+}
+
+.new-prod{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right:0px;
+	float: none;
+}
+
+	.couv-content img{
+	margin-left:0;
+	margin-top:20px;
+	margin-bottom:10px;
+	width:220px;
+	height: 100px;
+	text-align: center;
+	float: none;
+}
+
+	.title{
+	width: 100px;
+	height: auto;
+}
+
+.right-content{
+	float:none;
+	margin-top:0px;
+	margin-right: 0px;
+	margin-left: 0;
+	width: 100%;
+
+
+}
+
+.footer{
+	width: 100%;
+}
+
+input{
+	height: 30px;
+	width:70%;
+	border-radius:2px;
+	margin:0;
+	padding: 0;
+	align-content: center;
+}
+textarea{
+	width:300px;
+}
+
+form{
+	width: 100%
+	height:auto;
+}
+
+
+}
+
+/*End of mediaqueries*/
+.title{
+	text-align:center;
+	margin-left: 10px;
+}
+
+.prod{
+	height:250px;
+	width:175px;
+	border:1px solid gray;
+	border-radius: 5px;
+	display:inline-block; 
+	border-collapse: separate;
+	margin:20px 20px;
+	padding: 20px 20px;
+	
+
+}
+
+
+
+
+.content{
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right:30px;
+	margin-bottom: 50px;
+}
+
+h1{
+	margin-top: 40px;
+	font-family: cursive, calibri, times;
+}
+
+h3{
+	margin: 20px 20px;
+}
+
+h4{
+	color: blue;
+	text-decoration: none;
+	text-align:left;
+	font-family: cursive, verdana, calibri;
+}
+
+.new-prod{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.new-prod a{
+	color: blue;
+	font-size: bold;
+	font-family: cursive, calibri;
+}
+
+.footer{
+width: 100%;
+height: 200px;
+margin: 0;
+padding: 0;
+}
+
+span{
+	color: red;
+	text-decoration: none;
+	margin-left: 5px;
+
+}
+.simplon{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: bolder;
+	font-style: cursive, 'times new roman', 'calibri';
+	margin-top:50px;
+	color: white;
+}
+
+button{
+	color: white;
+	background-color:green;
+	margin-left: 30px;
+	margin-top: 15px;
+	width: 90px;
+	height: 30px;
+	border-radius: 2px;
+
+}
+
+.qsn,.cnv{
+	margin-top: 30px;
+	text-align:left;
+	justify-content: all;
+	line-height: 40px;
+	font-family: 'times' new roman, cursive;
+	padding: 20px 20px;
+	background-color:#EDF7F2;
+}
+
+.eng{
+	margin-right: 0px;
+	margin-left: 10px;
+	height: auto;
+	width: 100%;
+	
+}
+.cnv > img{
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-top: 0px;
+	margin-right:0px;
+}
+
+.eng > .pic{
+	float:right;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 70px;
+}
+.eng > p{
+	width: 70%;
+	height: auto;
+	line-height: 35px;
+	background-color: #CDD2D2;
+	padding: 20px 20px;
+}
+
+.box{
+	width: 400px;
+	height: 250px;
+	border:3px solid #FCFAE1;
+	display: inline-block;
+	overflow: wrap;
+	border-collapse: separate;
+	margin: 40px 50px;
+	border-radius: 5px;
+}
+
+
+.box-content{
+	margin-top: 20px;
+	padding: 
+	width:100%;
+	height: auto;
+}
+
+.p-box{
+	width: 250px;
+	height: 200px;
+	border:3px solid black;
+	display: inline-block;
+	overflow:hidden;
+	border-collapse: separate;
+	margin: 30px 70px;
+	border-radius: 5px;
+	text-align:center;
+	font-size: 14px;
+	font-family: algerian, cursive, calibri;
+	color: red;
+}
+.cmd{
+	
+	float:left;
+	border:1px solid black;
+	margin-top: 40px;
+}
+.dcrp{
+	float: right;
+	width:30%;
+	border:1px solid black;
+}
+
+.cmd, .dcrp{
+	display: inline-block;
+	width: 40%;
+	height: 400px;
+	margin: 50px 50px;
+}
+
+.cmd-content{
+	margin-top: 200px;
+	width: 70%;
+	height:1000px;
+	text-align: center;
+}
+
+.description{
+	width: 70%;
+	height: auto;
+	border:1px solid gray;
+	padding: 20px 20px;
+	background-color: #E1EDEC;
+	margin:20px 50px;
+}
+
+.map, .contact{
+	height: auto;
+	margin: 20px 20px;
+	padding: 20px 20px;
+	border:1px solid white;
+	
+	display: inline-block;
+}
+
+input{
+	height: 30px;
+	width: 100%;
+	border-radius: 2px;
+	margin:20px 0;
+}
+textarea{
+	width:300px;
+}
+
+.active{
+	background-color: rgba(255,00,00);
+	height: 35px;
+	width: 108px;
+	margin:0px;
+	padding: 0px;
+}
+
+.couv-content{
+	margin-left: 100px;
+	margin-top: 10px;
+	margin-bottom:100px;
+}
+
